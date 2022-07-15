@@ -1,0 +1,20 @@
+<div class="navbar">
+  <nav>
+    <app-logo></app-logo>
+    <ul class="page-nav" *ngIf="hideMenu">
+      <li><a class="active" href="/">Home</a></li>
+      <li><a href="#empresa">La Empresa</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contactanos</a></li>
+    </ul>
+    <!-- <ul class="user-nav">
+      <li>
+        <i class="fa-brands fa-whatsapp"></i
+        ><a href="" class="number">1-800-555-1234</a>
+      </li>
+    </ul> -->
+    <div class="menu-btn">
+      <i class="fa-solid fa-bars" (click)="hideMenu = !hideMenu"></i>
+    </div>
+  </nav>
+</div>

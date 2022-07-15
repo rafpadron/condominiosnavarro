@@ -1,0 +1,42 @@
+.item-container {
+  position: relative;
+  width: 400px;
+  height: auto;
+  margin: 50px;
+  margin-top: 80px;
+  box-shadow: 1px 1px 1px 1px;
+  padding: 25px;
+  text-align: center;
+}
+
+.item-container:hover,
+.item-container i:hover {
+  box-shadow: none;
+  border: 1px solid #2fb4cc;
+  color: #2fb4cc;
+  background-color: #fff;
+}
+
+.item-container i {
+  position: absolute;
+  top: -100px;
+  left: 132px;
+  font-size: 65px;
+  color: #fff;
+  margin: 10px;
+  border-radius: 100%;
+  border: 3px solid #2fb4cc;
+  padding: 20px;
+  background-color: #2fb4cc;
+}
+
+.item-container h2 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.item-container p {
+  margin: 10px;
+  color: gray;
+  line-height: 30px;
+}
