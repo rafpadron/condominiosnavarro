@@ -125,7 +125,10 @@ html {
 .footer div {
   color: #fff;
   font-weight: 300;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   height: 100%;
 }
 
@@ -140,5 +143,8 @@ html {
 @media screen and (max-width: 717px){
   .footer{
       height: 70px;
+  }
+  .footer div{
+    text-align: center;
   }
 }
