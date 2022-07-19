@@ -3,7 +3,7 @@ nav {
   grid-template-columns: auto auto 1fr; */
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 40px;
   width: 100%;
 
   background-color: black;
@@ -110,5 +110,11 @@ a:hover {
   }
   nav {
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 320px){
+  nav{
+    padding: 0 10px;
   }
 }
