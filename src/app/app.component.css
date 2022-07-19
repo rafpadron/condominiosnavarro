@@ -125,9 +125,7 @@ html {
 .footer div {
   color: #fff;
   font-weight: 300;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   height: 100%;
 }
 
@@ -135,5 +133,12 @@ html {
   .contacto-container {
     grid-template-columns: none;
     grid-template-rows: 1fr 1fr;
+  }
+}
+
+
+@media screen and (max-width: 717px){
+  .footer{
+      height: 70px;
   }
 }
